@@ -1468,10 +1468,11 @@ h3 {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-image: url(../img/about/man.png);
+  background-image: url(../img/steve1.jpeg);
   width: 724px;
   height: 767px;
   content: '';
+  border-radius: 50%;
 }
 
 @media (max-width: 767px) {
