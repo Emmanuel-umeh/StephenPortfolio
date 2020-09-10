@@ -50,6 +50,8 @@ app.use(express.json());
 // Use Routes
 
 app.use('/', require('./routes/home'))
+
+app.use('/sendEmail', require('./routes/email'))
 // app.use('/', require('./routes/user'))
 
 

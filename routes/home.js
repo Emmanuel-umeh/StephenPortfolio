@@ -1,5 +1,5 @@
 const router = require("express").Router()
-
+var nodemailer = require('nodemailer');//importing node mailer
 
 
 router.get('/', (req,res)=>{
@@ -10,12 +10,6 @@ router.get("/about", (req, res) => {
     res.render("About.ejs")
 })
 
-router.get("/fingerly-harthery-divisions", (req, res) => {
-    res.render("Fingerly.ejs")
-})
-router.get("/training-division", (req, res) => {
-    res.render("Training.ejs")
-})
 
 router.get("/portfolio", (req, res) => {
     res.render("portfolio.ejs")
